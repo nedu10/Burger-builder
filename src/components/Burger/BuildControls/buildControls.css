@@ -1,0 +1,41 @@
+.BuildControls {
+  width: 100%;
+  background-color: #aa6817;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  box-shadow: 0 2px 1px #ccc;
+  margin: auto;
+  padding: 10px 0;
+}
+
+.Button {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  text-transform: uppercase;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  background: #c56904;
+  color: white;
+  font-weight: 700;
+  border: 2px solid #793206;
+  box-shadow: 0.1rem 0.3rem 0.5rem #353030;
+  margin-bottom: 50px;
+  transition: all 0.2s;
+}
+
+.Button:disabled {
+  background: #e2b787;
+}
+
+.Button:active {
+  box-shadow: 0rem 0rem 0.5rem #353030;
+}
+
+.Button:focus {
+  outline: none;
+}
+
+.Button:hover {
+  box-shadow: 0.1rem 0.2rem 0.5rem #353030;
+}
